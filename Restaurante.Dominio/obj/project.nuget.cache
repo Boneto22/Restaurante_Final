@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "SdpPl0sTAhTPkixx9GlhcfF0rf6oQImrB63f0Lxu9g1Zsh7jDJgdFyqPzcHSAm7aSomWQ7TxgkPOYKEAr6ApWg==",
+  "success": true,
+  "projectFilePath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\Restaurante.Dominio\\Restaurante.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

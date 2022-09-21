@@ -1,0 +1,12 @@
+using System;
+
+namespace Restaurante.Dominio { 
+    
+    public class Deta_Fact { 
+      public  int id {get; set;}    
+      public  int cant {get; set;}
+      public Menu menu {get; set;}
+      public Factura factura {get; set;}
+    
+    }
+}
