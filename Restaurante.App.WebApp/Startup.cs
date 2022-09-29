@@ -23,6 +23,7 @@ namespace Restaurante.App.WebApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // Configuración del razor Front End y back End
             services.AddRazorPages();
         }
 
@@ -39,9 +40,9 @@ namespace Restaurante.App.WebApp
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-
+                // redirecciona para ir a otras páginas
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
+            app.UseStaticFiles(); // uso archivos staticos
 
             app.UseRouting();
 

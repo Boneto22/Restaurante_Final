@@ -1,0 +1,73 @@
+﻿@page
+@model Restaurante.App.WebApp.CreateModel
+@{
+    ViewData["Title"] = "Registro de personas";
+    ViewData["script"] = "personaCreate.js";
+
+}
+
+<div class="container bg-white border border-secondary rounded-25">
+    <div class="row">
+        <div class="col -md-2 col-12">
+
+        </div>    
+        <div class="col -md-8 col-12">
+            <br>    
+            <br>  
+
+            <h1>Registro de Personas</h1>
+            <form method="post" id="form-registro">
+                @Html.AntiForgeryToken()
+                <div class ="form-group">
+                    <label for="Documento">Documento </label>
+                    <input type="number" class="form-control" name="Documento" id="Documento" placeholder="Digite número de Identificación" minlength="7" maxlength="10">
+                </div>
+                <div class ="form-group">
+                    <label for="Nombre">Nombre </label>
+                    <input type="text" class="form-control" name="Nombre" id="Nombre" placeholder="Digite su nombre" minlength="20" maxlength="50">
+                </div>
+
+                <div class ="form-group">
+                    <label for="Apellidos">Apellidos</label>
+                    <input type="text" class="form-control" name="Apellidos" id="Apellidos" placeholder="Digite su nombre" minlength="20" maxlength="50">
+                </div>
+                <div class ="form-group">
+                    <label for="Email">email</label>
+                    <input type="text" class="form-control" name="Email" id="Email" placeholder="Digite su correo electronico" minlength="30" maxlength="50">
+                </div>
+                <div class ="form-group">
+                    <label for="Telefono">Telefono</label>
+                    <input type="number" class="form-control" name="Telefono" id="Telefono" placeholder="Digite su telefono" minlength="10" maxlength="20">
+                </div>
+                 <div class ="form-group">
+                    <label for="Estados">Seleccione su estado</label>
+                    <select name="Estados" id="Estados" class="form-control">
+                        <option value="" selected="selected">Seleccione...</option> 
+                        <option value="0">Activo</option>
+                        <option value="1">Inactivo</option>
+                    </select>    
+                </div>    
+                <div class ="form-group">
+                    <label for="Tipopersona">Roll</label>
+                    <select class="form-control" id="Tipopersona" name="Tipopersona"  >
+                        <option value="" selected ="selected">Seleccione...</option> 
+                        <option value="Cocinero">Cocinero</option> 
+                        <option value="Cajero">Cajero</option>
+                        <option value="Mesero">Mesero</option>
+                        <option value="Facturador">Facturador</option>
+                        <option value="Ayudante">Ayudante</option>
+                        <option value="Administrador">Administrador</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Registrar</button>
+                <button type="reset" class="btn btn-default">Limpiar</button>
+            </form>    
+            </br>
+            </br>
+        </div>
+        <div class="col -md-2 col-12">
+    
+        </div>    
+    </div>
+</div>
+           

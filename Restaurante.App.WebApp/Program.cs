@@ -13,6 +13,7 @@ namespace Restaurante.App.WebApp
     {
         public static void Main(string[] args)
         {
+            // Crear servidor local
             CreateHostBuilder(args).Build().Run();
         }
 

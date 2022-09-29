@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qazBGc9uv35eSs/Zq0ls7HvdDn6UrusU30lnwCKKmA7IgHk3sn2c9MACfzbLITcdL9hyn0Nsphm8xgEWIznfPg==",
+  "dgSpecHash": "CaG+J7P24kBWBeyc7jQ8pcavE9ArgyaJ5pQoNkMzprHXAaBW2pO9AZM8+X5JW3JTQTgREAAPCQcwV5OqhuaCnA==",
   "success": true,
-  "projectFilePath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Proyecto\\3erciclo\\proyectoTemp\\Restaurante\\restaurante\\restaurante.persistencia\\Restaurante.Persistencia.csproj",
+  "projectFilePath": "D:\\Documents\\HECTOR GARCIA\\RUTA2\\3er Ciclo\\Restaurant\\Restaurante.Persistencia\\Restaurante.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
